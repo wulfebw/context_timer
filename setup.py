@@ -1,13 +1,11 @@
 from setuptools import setup
 
-setup(name='python_package_template',
+setup(name='context_timer',
       version='0.1',
-      description='A template for python packages',
-      author='<insert name>',
-      author_email='<insert email>',
+      description='A context timer',
+      author='blake wulfe',
+      author_email='blake.w.wulfe@gmail.com',
       license='MIT',
-      packages=['python_package_template'],
+      packages=['context_timer'],
       zip_safe=False,
-      install_requires=[
-        'numpy',
-      ])
+      install_requires=[])
